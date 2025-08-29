@@ -232,7 +232,7 @@ Removing app...
 
 - Solution: Ensure the database container is fully started before the web container
 - Check: 
-```docker logs task-db for database logs```
+```docker logs postgres-db for database logs```
 
 #### 3.Permission denied on scripts
 
@@ -249,13 +249,13 @@ Removing app...
 ### View container logs:
 
 #### Web application logs
-```docker logs task-web```
+```docker logs task-manager-web```
 
 #### Database logs
-```docker logs task-db```
+```docker logs postgres-db```
 
 #### Follow logs in real-time
-```docker logs -f task-web```
+```docker logs -f postgres-db```
 
 ## Documentation Links
 
