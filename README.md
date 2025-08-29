@@ -146,7 +146,7 @@ Available endpoints:
 ### How to Pause the Application
 
 ```bash
-**Stop all services (preserves data)**
+Stop all services (preserves data)
 ./stop-app.sh
 ```
 
@@ -159,7 +159,7 @@ This script will:
 ### How to Delete the Application
 
 ```bash
-**Remove all application resources**
+Remove all application resources
 ./remove-app.sh
 ```
 
