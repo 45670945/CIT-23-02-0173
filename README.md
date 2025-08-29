@@ -121,9 +121,10 @@ This script will:
 
 ### How to Run the Application
 
-```bash```
+```bash
 Start all services
-```./start-app.sh```
+./start-app.sh
+```
 This script will:
 
 - Start the PostgreSQL database container
@@ -144,9 +145,10 @@ Available endpoints:
 
 ### How to Pause the Application
 
-```bash ```
+```bash
 **Stop all services (preserves data)**
-```./stop-app.sh```
+./stop-app.sh
+```
 
 This script will:
 
@@ -156,9 +158,10 @@ This script will:
 
 ### How to Delete the Application
 
-```bash```
+```bash
 **Remove all application resources**
-```./remove-app.sh```
+./remove-app.sh
+```
 
 This script will:
 
